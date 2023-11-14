@@ -15,12 +15,47 @@ function writing() {
     document.getElementById('p3').innerHTML = text
 }
 
-
 document.getElementById('p1').innerHTML = date14_11_2023;
 document.getElementById('p2').innerHTML = datetoday;
 
 
 if (datetoday > date14_11_2023) {
     text = "Jour1: Que mettre dans le potager ? Fruits de saison"
+    writing()
+}
+if (datetoday > date15_11_2023) {
+    text = "Jour2: Acheter les graines"
+    writing()
+}
+if (datetoday > date16_11_2023) {
+    text = "Jour 3 : préparer la terre"
+    writing()
+}
+if (datetoday > date17_11_2023) {
+    text = "Jour 4 : planter et arroser"
+    writing()
+}
+if (datetoday > date18_11_2023) {
+    text = "Jour 5 : Ajouter au potager, un carré de la biodiversité"
+    writing()
+}
+if (datetoday > date19_11_2023) {
+    text = "Jour 1 : planter ta plante ( ou apporter ta plante ) et l'arroser régulièrement"
+    writing()
+}
+if (datetoday > date20_11_2023) {
+    text = "Jour 2 : arroser ta plante"
+    writing()
+}
+if (datetoday > date21_11_2023) {
+    text = "Jour 3 : arroser ta plante"
+    writing()
+}
+if (datetoday > date22_11_2023) {
+    text = "Jour 4 : arroser ta plante"
+    writing()
+}
+if (datetoday > date23_11_2023) {
+    text = "Jour 5 : arroser ta plante"
     writing()
 }
