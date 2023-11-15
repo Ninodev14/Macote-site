@@ -1,4 +1,4 @@
-let datetoday = new Date(2023, 10, 19);
+let datetoday = new Date();
 
 let date9_11_2023 = new Date(2023, 10, 10);
 let date10_11_2023 = new Date(2023, 10, 10);
@@ -79,12 +79,146 @@ let text = ""
 let link = ""
 let semaine = ""
 let badge = ""
+let jour = ""
+let theme = ""
+let semainedate = ""
+let semainechiffre = ""
+let resumer = ""
+let objectif =""
+
 function writing() {
     document.getElementById('p3').innerHTML = text;
     document.getElementById('p4').innerHTML = semaine;
     document.querySelector('.badge').src = badge;
     document.querySelector('.link').href = link;
+    document.querySelector('.jour').innerHTML = jour;
+    document.querySelector('#themechoix').innerHTML = theme;
+    document.querySelector('.semaine').innerHTML = semainedate; 
+    document.querySelector('.semainechiffre').innerHTML = semainechiffre; 
+    document.querySelector('.resumer').innerHTML = resumer;
+    document.querySelector('.objectifs').innerHTML = objectif;
 }
+
+
+
+tabObjectif = [
+    "Objectif de la semaine : <span>Créer un potager</span>"
+    ,
+    "Objectif de la semaine : <span>...</span>"
+    ,
+    "Objectif de la semaine : <span>...</span>"
+    ,
+    "Objectif de la semaine : <span>...</span>"
+    ,
+    "Objectif de la semaine : <span>...</span>"
+    ,
+    "Objectif de la semaine : <span>...</span>"
+    ,
+    "Objectif de la semaine : <span>...</span>"
+    ,
+    "Objectif de la semaine : <span>...</span>"
+    ,
+    "Objectif de la semaine : <span>...</span>"
+    ,
+    "Objectif de la semaine : <span>...</span>"
+]
+
+tabResumer = [
+    "Lundi, nous allons réfléchir à la composition du potager, Mardi acheter les graines, Mercredi préparer le sol, Et jeudi/vendredi planter et arroser tout ça !"
+    ,
+    "..."
+    ,
+    "..."
+    ,
+    "..."
+    ,
+    "..."
+    ,
+    "..."
+    ,
+    "..."
+    ,
+    "..."
+    ,
+    "..."
+    ,
+    "..."
+]
+
+tabSemainechiffre = [
+    "Lundi 20 novembre 2023 - Vendredi 24 novembre 2023"
+    ,
+    "Lundi 27 novembre 2023 - Vendredi 01 décembre 2023"
+    ,
+    "Lundi 04 décembre 2023 - Vendredi 08 décembre 2023"
+    ,
+    "Lundi 11 décembre 2023 - Vendredi 15 décembre 2023" 
+    ,
+    "Lundi 18 décembre 2023 - Vendredi 22 décembre 2023"
+    ,
+    "Lundi 08 janvier 2024 - Vendredi 12 janvier 2024"
+    ,
+    "Lundi 15 janvier 2024 - Vendredi 19 janvier 2024"
+    ,
+    "Lundi 22 janvier 2024 - Vendredi 26 janvier 2024"
+    ,
+    "Lundi 29 janvier 2024 - Vendredi 02 février 2024"
+    ,
+    "Lundi 05 février 2024 - Vendredi 09 février 2024"
+]
+
+tabSemainedate = [
+    "Semaine 46"
+    ,
+    "Semaine 47"
+    ,
+    "Semaine 48"
+    ,
+    "Semaine 49"
+    ,
+    "Semaine 50"
+    ,
+    "Semaine 51"
+    ,
+    "Semaine 52"
+    ,
+    "Semaine 1"
+    ,
+    "Semaine 2"
+    ,
+    "Semaine 3"
+]
+
+
+tabThemechoix = [
+    "<span>Thème :</span>Jardinage"
+    ,
+    "<span>Thème :</span>Jardinage"
+    ,
+    "<span>Thème :</span>Environnement"
+    ,
+    "<span>Thème :</span>Alimentation"
+    ,
+    "<span>Thème :</span>Consommation énergétique"
+    ,
+    "<span>Thème :</span>Animaux"
+    ,
+    "<span>Thème :</span>Environnement"
+    ,
+    "<span>Thème :</span>Occasion, Seconde Main"
+    ,
+    "<span>Thème :</span>Animaux"
+    ,
+    "<span>Thème :</span>Recyclage"
+    
+]
+
+
+tabJour = [
+    "Weekend", "Jour 1", "Jour 2", "Jour 3", "Jour 4", "Jour 5" 
+]
+
+
 tabWeek = [
     "Créer un petit potager à plein d’avantages, vous pouvez organiser au sein de la classe ou de la famille des petites activitées autour de ce dernier, pouvoir entraîner les enfants aux responsabilitées d’entretenir un petit potager est intéressant et ludique tout en sensibilisant à des gestes écologiques. En prime, quand les fruits et légumes auront poussé, vous pourrez organiser un délicieux goûter."
     ,
@@ -106,6 +240,7 @@ tabWeek = [
     ,
     "Cette semaine d’apprentissage du recyclage va leur permettre de développer une conscience environnementale, de contribuer à la protection de l'environnement, de réduire les émissions de gaz à effet de serre, d'économiser des ressources naturelles et de favoriser une consommation responsable. Cela les forme en tant que futurs acteurs du changement et les aide à prendre des décisions éclairées pour préserver notre planète."
 ]
+
 tabBadge = [
 "element/image/b_eau.png"
 ,
@@ -127,27 +262,30 @@ tabBadge = [
 ,
 "element/image/..."
 ]
+
 tabTextWeek = [
-["Attends lundi pour que ça arrive", "Jour1: Que mettre dans le potager ? Fruits de saison", "Jour2: Acheter les graines", "Jour 3 : préparer la terre", "Jour 4 : planter et arroser", "Jour 5 : Ajouter au potager, un carré de la biodiversité" ]
+["Attends lundi pour que ça arrive", "Que mettre dans le potager ? Fruits de saison", "Acheter les graines", " Préparer la terre", " Planter et arroser", "Ajouter au potager, un carré de la biodiversité" ]
 ,
-["Attends lundi pour que ça arrive", "Jour 1 : planter ta plante ( ou apporter ta plante ) et l'arroser régulièrement", "Jour 2 : arroser ta plante" , "Jour 3 : arroser ta plante","Jour 4 : arroser ta plante", "Jour 5 : arroser ta plante" ]
+["Attends lundi pour que ça arrive", "Planter ta plante ( ou apporter ta plante ) et l'arroser régulièrement", "Arroser ta plante" , " Arroser ta plante"," Arroser ta plante", "Arroser ta plante" ]
 ,
-["Attends lundi pour que ça arrive", "Jour 1 : créer un compost", "Jour 2 : ramasser des déchets autour de l'école" , "Jour 3 : ramasser des déchets dans la ville, forêt ou parc" , 'Jour 4 : créer une boite "Recup Papier"', "Jour 5 : découvrir le recyclage"]
+["Attends lundi pour que ça arrive", "Créer un compost", "Ramasser des déchets autour de l'école" , " Ramasser des déchets dans la ville, forêt ou parc" , ' Créer une boite "Recup Papier"', "Découvrir le recyclage"]
 ,
-["Attends lundi pour que ça arrive", "Jour 1 : manger une pomme et planter sa graine", "Jour 2 : Finis toutes tes assiettes", "Jour 3 : Ne pas manger de viande de la journée", "Jour 4 : Faire sa propre purée / compote", "Jour 5 : Aller acheter des oeufs dans une ferme locale"  ]
+["Attends lundi pour que ça arrive", "Manger une pomme et planter sa graine", "Finis toutes tes assiettes", " Ne pas manger de viande de la journée", " Faire sa propre purée / compote", "Aller acheter des oeufs dans une ferme locale"  ]
 ,
-["Attends lundi pour que ça arrive", "Jour 1 : Eteint toujours la lumière derrière toi", "Jour 2 : Vient à l'école à vélo, à pied ou avec les transports en commun", "Jour 3 : Prend une douche de 5 min max" , "Jour 4 : Faire un quizz sur  les énergies renouvelables" , "Jour 5 : Passer une soirée sans utiliser d'électricité" ]
+["Attends lundi pour que ça arrive", "Eteint toujours la lumière derrière toi", "Vient à l'école à vélo, à pied ou avec les transports en commun", " Prend une douche de 5 min max" , " Faire un quizz sur  les énergies renouvelables" , "Passer une soirée sans utiliser d'électricité" ]
 ,
-["Attends lundi pour que ça arrive", "Jour 1 : Découvrez un nouvel animal" , "Jour 2 : Bricoler un mangeoir" , "Jour 3 : mettre une gamelle d'eau à l'extérieur de sa maison" , "Jour 4 : créer un hotel à insecte" , "Jour 5 : Se renseignez sur l'alimentation des animaux" ]
+["Attends lundi pour que ça arrive", "Découvrez un nouvel animal" , "Bricoler un mangeoir" , " Mettre une gamelle d'eau à l'extérieur de sa maison" , " Créer un hotel à insecte" , "Se renseignez sur l'alimentation des animaux" ]
 ,
-["Attends lundi pour que ça arrive", "Jour 1 : fabriquer un cadeau pour un proche sans plastique" , "Jour 2 : amener une gourde à l'école" , "Jour 3 : recycler ses pailles en plastique et ne plus en acheter" , "Jour 4 : bricoler quelque chose avec des déchets" , "Jour 5 : demander à ses parents d'acheter en vrac"]
+["Attends lundi pour que ça arrive", "Fabriquer un cadeau pour un proche sans plastique" , "Amener une gourde à l'école" , " Recycler ses pailles en plastique et ne plus en acheter" , " Bricoler quelque chose avec des déchets" , "Demander à ses parents d'acheter en vrac"]
 ,
-["Attends lundi pour que ça arrive", "Jour 1 : trier les vetements et jouets que tu n'utilises plus" , "Jour 2 : mettre les vetements triés dans un point relais" ,  "Jour 3 : acheter un vêtement d'occasion" , "Jour 4 : découvre le troc, troquer un jouet avec un copain/copine" , "Jour 5 : recycler un vetement troué" ]
+["Attends lundi pour que ça arrive", "Trier les vetements et jouets que tu n'utilises plus" , "Mettre les vetements triés dans un point relais" ,  " Acheter un vêtement d'occasion" , " Découvre le troc, troquer un jouet avec un copain/copine" , "Recycler un vetement troué" ]
 ,
-["Attends lundi pour que ça arrive", "Jour 1 : désinez un animal en voie de disparition", "Jour 2 : désinez un autre animal en voie de disparition" , "Jour 3 : désinez un autre animal en voie de disparition" , "Jour 4 : désinez un autre animal en voie de disparition" , "Jour 5 : désinez un autre animal en voie de disparition" ]
+["Attends lundi pour que ça arrive", "Désinez un animal en voie de disparition", "Désinez un autre animal en voie de disparition" , " Désinez un autre animal en voie de disparition" , " Désinez un autre animal en voie de disparition" , "Désinez un autre animal en voie de disparition" ]
 ,
-["Attends lundi pour que ça arrive", "Jour 1 : mettre un seau dehors pour recycler l'eau de pluie" , "Jour 2 : cuisiner les epluchures" , "Jour 3 : faire une guirlande avec des bouchons de plastique" , "Jour 4 : Gagner un concours de tri des déchets (mettre 4 bacs ) et devoir vite mettre les déchets dans le bon bac" , "Jour 5 : Faire du papier maché avec journaux" ]
+["Attends lundi pour que ça arrive", "Mettre un seau dehors pour recycler l'eau de pluie" , "Cuisiner les epluchures" , " Faire une guirlande avec des bouchons de plastique" , " Gagner un concours de tri des déchets (mettre 4 bacs ) et devoir vite mettre les déchets dans le bon bac" , "Faire du papier maché avec journaux" ]
 ]
+
+
 tabDate = [
     [date11_11_2023, date13_11_2023, date14_11_2023, date15_11_2023, date16_11_2023, date17_11_2023]
     ,
@@ -176,27 +314,38 @@ tabDate = [
             badge = tabBadge[i]
             link = tabBadge[i]
             text = tabTextWeek[i][0]
+            theme = tabThemechoix [i]
             semaine = tabWeek[i]
+            jour = tabJour[0]
+            semainedate = tabSemainedate[i]
+            semainechiffre = tabSemainechiffre[i]
+            resumer = tabResumer[i]
+            objectif = tabObjectif[i]
             writing()
         }
         if (datetoday > tabDate[i][1]) {
             text =  tabTextWeek[i][1]
+            jour = tabJour[1]
             writing()
         }
         if (datetoday > tabDate[i][2]) {
             text = tabTextWeek[i][2]
+            jour = tabJour[2]
             writing()
         }
         if (datetoday > tabDate[i][3]) {
             text = tabTextWeek[i][3]
+            jour = tabJour[3]
             writing()
         }
         if (datetoday > tabDate[i][4]) {
             text = tabTextWeek[i][4]
+            jour = tabJour[4]
             writing()
         }
         if (datetoday > tabDate[i][5]) {
             text = tabTextWeek[i][5]
+            jour = tabJour[5]
             writing()
         }
     }
