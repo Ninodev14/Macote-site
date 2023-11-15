@@ -101,11 +101,9 @@ body{
 
 }
 
+
 .contenu h2{
     color: #3A8075;
-
-    /* H2 */
-    font-family: Nunito sans;
     font-size: 37px;
     font-style: normal;
     font-weight: 400;
@@ -114,8 +112,5 @@ body{
 
 .contenu p{
     margin-top: 49px;
-}
-
-.contenu .para1{
-    margin-top: 100px;
+font-family: Montserrat;
 }
