@@ -1,4 +1,4 @@
-let datetoday = new Date();
+let datetoday = new Date(2023, 10, 19);
 
 let date9_11_2023 = new Date(2023, 10, 10);
 let date10_11_2023 = new Date(2023, 10, 10);

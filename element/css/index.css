@@ -1,30 +1,7 @@
 .badge {
-width: 312px;
-height: auto;
-}
-
-
-/* c pour moi ici */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300&family=Roboto:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Irish+Grover&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Baloo+Bhai+2&family=Baloo+Da+2:wght@400;600&family=Irish+Grover&family=Nunito+Sans:opsz,wght@6..12,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Baloo+Bhai+2&family=Baloo+Da+2:wght@400;600&family=Comfortaa:wght@300;500;600;700&family=Irish+Grover&family=Nunito+Sans:ital,opsz,wght@0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900&family=Nunito:ital,wght@0,600;0,700;0,800;0,900;0,1000;1,700&display=swap');
-
-
-body{
-    padding: 0;
-    margin: 0;
-}
-
-h2{
-  color: #398175;
-  text-align: center;
-  font-family: Nunito Sans;
-  font-size: 37px;
-  font-style: normal;
-  font-weight: 100;
-  line-height: normal;
-}
+    width: 250px;
+    height: auto;
+    } 
 
 .dates{ 
   width: 100%;
@@ -49,16 +26,6 @@ h2{
     margin-top: 148px;
 }
 
-h1{
-  color: #398175;
-  text-align: center;
-  font-family: Irish Grover;
-  font-size: 72px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-
-}
 
 .explications p{
     font-family: Inter; 
@@ -181,23 +148,11 @@ margin: 2rem 5rem 2rem 38rem;
     margin-right: auto;
 }
 
-/* .badges p, a{
-  margin-top: 58px;
-  height: 5rem;
-  width: 20rem;
-  font-family: Inter; 
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
 .badges{
     display:flex;
     flex-direction: row;
     justify-content: center;
 }
-
-
 
 .badges img{
     height: 339px;
@@ -221,9 +176,6 @@ margin: 2rem 5rem 2rem 38rem;
    
 }
 
-
-
-
 .badges_droite p{
   
     margin-top: 20px;
@@ -234,7 +186,6 @@ margin: 2rem 5rem 2rem 38rem;
 }
 
 .badges_droite a{
-  
     margin-top: 20px;
     display: flex;
     justify-content: left;
