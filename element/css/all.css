@@ -27,9 +27,18 @@ p {
     line-height: normal;
 }
 
+footer a{
+color: #000;
+font-family: Comfortaa;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+text-decoration : underline !important;
+}
 
-
-ul {
+footer ul {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -66,7 +75,7 @@ footer {
     flex-wrap: wrap;
 }
 
-.social-iconitem,
+.social,
 .menuitem {
     list-style: none;
 }
@@ -99,6 +108,11 @@ footer {
 
 .menulink:hover {
     color: #000000;
+}
+
+footer img{
+    height: 50px;
+    width: auto;
 }
 
 footer p {
