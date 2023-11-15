@@ -2,3 +2,242 @@
 width: 312px;
 height: auto;
 }
+
+
+/* c pour moi ici */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Baloo+Bhai+2&family=Baloo+Da+2:wght@400;600&family=Irish+Grover&family=Nunito+Sans:opsz,wght@6..12,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Baloo+Bhai+2&family=Baloo+Da+2:wght@400;600&family=Comfortaa:wght@300;500;600;700&family=Irish+Grover&family=Nunito+Sans:ital,opsz,wght@0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900&family=Nunito:ital,wght@0,600;0,700;0,800;0,900;0,1000;1,700&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+  color: #398175;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+}
+
+.dates{ 
+  width: 100%;
+  height: 100%;
+  color: #3A8075;
+  text-align: center;
+  font-family:  Nunito Sans;
+  font-size: 50px;
+  font-weight: 900;
+  
+}
+
+.semaines {
+    margin-top: 117px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.explications{
+    margin-top: 148px;
+}
+
+h1{
+  color: #398175;
+  text-align: center;
+  font-family: Irish Grover;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.explications p{
+    font-family: Inter; 
+    width: 872px;
+    height: 136px; 
+    margin-top: 58px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.explications iframe{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.défis img{
+  margin-top: 259px;
+  width: 415.167px;
+  height: 297.964px;
+  flex-shrink: 1;
+  margin-left: 35rem;
+}
+
+@media screen and (max-width: 768px) {
+  .défis img {
+    margin-left: 0; /* Ajuster la marge pour les écrans plus petits */
+  }
+}
+
+/* themes */
+
+.theme h3 span{
+  
+  margin: 1rem 1rem 1rem 40rem;
+  flex-shrink: 0;
+  color: #398175;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  }
+  
+  .theme2 p{
+  color: #FFF;
+  font-family: Comfortaa;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 136.03%;
+  text-align: center;
+  margin-top: 5.5rem;
+  letter-spacing: 3px;
+  }
+
+.theme1{
+  background: url('../image/cible.png'),  #398175;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  padding: 0rem 4rem 2rem 2rem;
+  margin: 1rem 15rem 1rem 15rem;
+  flex-shrink: 0;
+  border-radius: 30px;
+}
+
+.theme1 h2{
+  color: #FFF;
+  text-align: center;
+  font-family: Irish Grover;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  
+
+.theme2{
+  display: flex;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 280px;
+  border-radius: 30px;
+  background: rgba(153, 228, 170, 0.70);
+  justify-content: center;
+}
+
+.objectif{
+margin: 2rem 5rem 2rem 38rem;
+}
+
+.theme .objectif p {
+  color: #398175;
+}
+
+.objectif span{
+  margin: 10rem 10rem 10rem 1rem;
+  background-color: #398175;
+  color: #FFF;
+  padding: 1rem;
+  border-radius: 15px; 
+}
+/* pourquoi */
+
+.pourquoi p{
+    width: 872px;
+    height: 322px; 
+    margin-top: 58px;
+    font-family: Inter; 
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .badges p, a{
+  margin-top: 58px;
+  height: 5rem;
+  width: 20rem;
+  font-family: Inter; 
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.badges{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.badges img{
+    height: 339px;
+    width: 339px;
+}
+
+.badges_droite{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left:0px ;
+
+    
+}
+.badges_droite h1{
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    margin-left:0px ;
+   
+}
+
+
+
+
+.badges_droite p{
+  
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    margin-left:0px ;
+    width: 80%;
+}
+
+.badges_droite a{
+  
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    margin-left:0px ;
+    width: 80%;
+}
