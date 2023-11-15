@@ -65,6 +65,7 @@ let date12_1_2024 = new Date(2024, 0, 12);
 let date13_1_2024 = new Date(2024, 0, 13);
 
 let text = ""
+let link = ""
 let semaine = ""
 let badge = ""
 
@@ -72,11 +73,13 @@ function writing() {
     document.getElementById('p3').innerHTML = text;
     document.getElementById('p4').innerHTML = semaine;
     document.querySelector('.badge').src = badge;
+    document.querySelector('.link').href = link;
 }
 
 
 if (datetoday > date11_11_2023) {
     badge = "element/image/b_eau.png"
+    link = "element/image/b_eau.png"
     text = "Attent lundi pour que ça arrive"
     semaine = "Créer un petit potager à plein d’avantages, vous pouvez organiser au sein de la classe ou de la famille des petites activitées autour de ce dernier, pouvoir entraîner les enfants aux responsabilitées d’entretenir un petit potager est intéressant et ludique tout en sensibilisant à des gestes écologiques. En prime, quand les fruits et légumes auront poussé, vous pourrez organiser un délicieux goûter."
     writing()
@@ -105,6 +108,7 @@ if (datetoday > date17_11_2023) {
 
 if (datetoday > date18_11_2023) {
     badge = "element/image/b_plante.png";
+    link = "element/image/b_plante.png"
     text = "Attent lundi pour que ça arrive"
     semaine = "Garder en vie une plante est un défi intéressant sur plusieurs points. Dans un premier temps, cela peut permettre de faire comprendre aux enfants comment marche la nature et les plantes qui nous entourent. Cela permet également aux enfants d'entraîner leur autonomie, de réussir à prendre soin d’un être vivant. Enfin, une fois qu’elle aura poussé, vous pourrez décorer votre salle de classe ou votre maison avec cette dernière !"
     writing()
@@ -132,6 +136,7 @@ if (datetoday > date24_11_2023) {
 
 if (datetoday > date25_11_2023) {
     badge = "element/image/...";
+    link = "element/image/..."
     text = "Attent lundi pour que ça arrive"
     semaine = "Ramasser et trier ses déchets devient un geste de plus en plus important de nos jours. Ainsi en sensibilisant les enfants à ces petits gestes, ils y seront habitués. L’avantage c’est qu’encore une fois nous encourageons l’autonomie de chacun par une action responsable, et cela contribue en plus à rendre la classe propre et travailler dans un lieu sain."
     writing()
@@ -159,6 +164,7 @@ if (datetoday > date1_12_2023) {
 
 if (datetoday > date2_12_2023) {
     badge = "element/image/...";
+    link = "element/image/..."
     text = "Attent lundi pour que ça arrive"
     semaine = "Ce thème peut être constructif à faire, ici on sensibilise à plusieurs domaines : la santé, le gaspillage et l’écologie. En effectuant chaques défis, on permet aux enfant de s’habituer à effectuer ces actions chaque jours et prendre une bonne habitude, mais également prendre conscience des enjeux qui nous entourent. "
     writing()
@@ -186,6 +192,7 @@ if (datetoday > date8_12_2023) {
 
 if (datetoday > date9_12_2023) {
     badge = "element/image/...";
+    link = "element/image/..."
     text = "Attent lundi pour que ça arrive"
     semaine = "De nos jours, les énergies ont une grande place dans le quotidien, il est important d'être sensibilisé aux énergies renouvelables et à faire attention à sa consommation. En sensibilisant les élèves aux bons réflexes pour réduire leur empreinte énergétique on permet de créer des réflexes responsables qui les suivront toute leur vie."
     writing()
@@ -213,6 +220,7 @@ if (datetoday > date15_12_2023) {
 
 if (datetoday > date9_12_2023) {
     badge = "element/image/...";
+    link = "element/image/..."
     text = "Attent lundi pour que ça arrive"
     semaine = "Souvent les enfants adorent les animaux, ils aiment tant ces petites boules de poils, de plumes et d’écailles, ils sont si mignons à leurs yeux. Il est alors nécessaire qu’ils apprennent à les protéger et qu'ils prennent conscience que certains d’entre eux sont en danger. Les défis que nous proposons sont éducatifs car les enfants en apprennent plus sur les animaux, bricolent des objets intéressants, et prennent soin des animaux qui les entourent."
     writing()
@@ -240,8 +248,10 @@ if (datetoday > date15_12_2023) {
 
 if (datetoday > date16_12_2023) {
     badge = "element/image/...";
+    link = "element/image/..."
     text = "Attent lundi pour que ça arrive"
     semaine = "Le plastique, ce fléau de notre siècle, tout le monde y a affaire au quotidien. Tout le monde en consomme énormément, les enfants aussi, ainsi, les sensibiliser sur son utilisation est nécessaire. C’est également intéressant car au fils des défis, les enfants vont devoir user de réflexion pour utiliser ou offrir des objets sans plastique."
+    writing()
 }
 if (datetoday > date18_12_2023) {
     text = "Jour 1 : fabriquer un cadeau pour un proche sans plastique"
@@ -265,6 +275,7 @@ if (datetoday > date22_12_2023) {
 }
 
 if (datetoday > date23_12_2023) {
+    link = "element/image/..."
     badge = "element/image/...";
     text = "Attent lundi pour que ça arrive"
     semaine = "Ce thème est intéressant car il permet aux enfants de découvrir un aspect de la vie d’aujourd’hui qu’ils ne connaissent pas forcément. En commençant par découvrir la seconde main et ses avantages mais aussi en apprenant le troc qui peut être une expérience sociale enrichissante pour les enfants."
@@ -319,6 +330,7 @@ if (datetoday > date5_1_2024) {
 }
 
 if (datetoday > date6_1_2024) {
+    link = "element/image/..."
     badge = "element/image/...";
     text = "Attent lundi pour que ça arrive"
     semaine = "Cette semaine d’apprentissage du recyclage va leur permettre de développer une conscience environnementale, de contribuer à la protection de l'environnement, de réduire les émissions de gaz à effet de serre, d'économiser des ressources naturelles et de favoriser une consommation responsable. Cela les forme en tant que futurs acteurs du changement et les aide à prendre des décisions éclairées pour préserver notre planète."
@@ -346,6 +358,7 @@ if (datetoday > date12_1_2024) {
 }
 
 if (datetoday > date13_1_2024) {
+    link = "element/image/..."
     badge = "element/image/...";
     text = "Désoler lévenement est finis"
     semaine = ""
