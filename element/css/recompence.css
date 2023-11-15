@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300&family=Roboto:wght@300;400&display=swap');
+
+
+.intro {
+
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding: 20px;
+
+}
+
+
+
+.première_rangée{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.deuxième_rangée{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.troisième_rangée{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.premier_badge{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.premier_badge button{
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    text-decoration: none;
+    width: 155px;
+    height: 41px; 
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.deuxième_badge{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.deuxième_badge button{
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    text-decoration: none;
+    width: 155px;
+    height: 41px; 
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.troisième_badge{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.troisième_badge button{
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    text-decoration: none;
+    width: 155px;
+    height: 41px; 
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.badge{
+margin: auto;
+width: 70%;
+height: auto;
+}
