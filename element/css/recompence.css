@@ -51,7 +51,7 @@
     margin-top: 31px;
     display: flex;
     flex-direction: column;
-    background-color: #D9D9D9;
+    background-color: #F8DD6C;
     text-decoration: none;
     width: 155px;
     height: 41px; 
@@ -60,6 +60,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    border-radius: 20px;
 }
 
 .deuxième_badge{
@@ -72,7 +73,7 @@
     margin-top: 31px;
     display: flex;
     flex-direction: column;
-    background-color: #D9D9D9;
+    background-color: #F8DD6C;
     text-decoration: none;
     width: 155px;
     height: 41px; 
@@ -81,6 +82,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    border-radius: 20px;
 }
 
 .troisième_badge{
@@ -93,7 +95,7 @@
     margin-top: 31px;
     display: flex;
     flex-direction: column;
-    background-color: #D9D9D9;
+    background-color: #F8DD6C;
     text-decoration: none;
     width: 155px;
     height: 41px; 
@@ -102,6 +104,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    border-radius: 20px;
 }
 
 .badge{
