@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code:wght@300&family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:wght@600&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code:wght@300&family=Irish+Grover&family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:wght@600&family=Roboto:wght@300&display=swap');
+
+header{
+    height: 473px;
+    border-bottom: solid 2px red;
+}
+
+header .navi{
+    
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+    
+
+.header_haut {
+    height: 395px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+  header .navi{
+    width: 100%;
+    height: 109px; 
+    background-color: #D9D9D9;
+    font-family: Inter; 
+    margin-top: -45px;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+header .navi ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+
+    
+}
+
+
+header .navi ul{
+    display: flex;
+    justify-content: space-around;
+
+    
+    
+}
+
+header .navi a{
+    text-decoration: none;
+    color: inherit;
+
+
+   
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.contenu{
+    margin-top: 100px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165%; 
+    
+
+}
+
+.noms{
+   
+    text-align: center;
+}
+
+.qui_sommes{
+    text-align: center;
+    color: #3A8075; 
+    
+    font-family: Irish Grover;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+
+}
+
+.contenu h2{
+    color: #3A8075;
+
+    /* H2 */
+    font-family: Nunito sans;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.contenu p{
+    margin-top: 49px;
+}
+
+.contenu .para1{
+    margin-top: 100px;
+}
