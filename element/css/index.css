@@ -29,18 +29,20 @@
 
 .explications p{
     font-family: Inter; 
-    width: 872px;
+    width: 80%;
     height: 136px; 
     margin-top: 58px;
+    margin-bottom: 2%;
     display: flex;
     justify-content: center;
+  
     margin-left: auto;
     margin-right: auto;
 
 }
 
 .explications iframe{
-    margin-top: 40px;
+    margin-top: 2%;
     display: flex;
     justify-content: center;
     margin-left: auto;
@@ -48,13 +50,46 @@
 
 }
 
-.défis img{
+.défis_jour1 {
   margin-top: 259px;
-  width: 415.167px;
-  height: 297.964px;
-  flex-shrink: 1;
-  margin-left: 35rem;
+  color: var(--Vert-fonc, #3A8075);
+  text-align: center;
+  font-family: Irish Grover;
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
 }
+
+.défis_jour2 {
+  color: var(--Turquoise, #4BC3B7);
+  text-align: center;
+  font-family: Irish Grover;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+  position: relative; 
+  margin-top: -260px;
+}
+
+.défis_jour3 {
+  color: #A7C957;
+  text-align: center;
+  font-family: Irish Grover;
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+  position: relative;
+  margin-top: -300px;
+  margin-left: 490px;
+}
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
   .défis img {
