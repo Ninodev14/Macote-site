@@ -205,7 +205,17 @@
     color: #3A8075;
 }
 
+@media screen and (width > 600px) {
+    .yes-mobile{
+        display: none;
+    }
+  }
+@media screen and (max-width: 600px) {
+    .no-mobile{
+        display: none;
+    }
 
+  }
 /* troiseme badge */
 .troisième_badge{
     display: flex;
