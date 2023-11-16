@@ -47,6 +47,47 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .espacevideo{
+    margin: 100px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .espacevideo{
+    margin: 150px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .espacevideo{
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .espacevideo{
+    margin: 100px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .espacevideo{
+    margin: 120px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .espacevideo{
+    margin: 130px;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .espacevideo{
+    margin: 200px;
+  }
+}
 
 .explications iframe{
     margin-top: 2%;
@@ -386,4 +427,47 @@ text-decoration-line: underline;
 .social_animation:hover{
   transform: translateY(-7px);
   color: #000000;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .défis{
+    margin-top: 35rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .défis{
+    margin-bottom: 50rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .défis{
+    margin-top: 35rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .défis{
+    margin-top: 40rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .défis{
+    margin-top: 35rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .défis{
+    margin-top: 35rem;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .défis{
+    margin-top: 35rem;
+  }
 }
