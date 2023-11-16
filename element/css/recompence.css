@@ -116,6 +116,29 @@
     background-color: #398175;
 }
 
+.quatrième_rangée{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.quatrième_rangée button a{
+    text-decoration: none;
+    color: white;
+}
+
+.quatrième_rangée button a:hover{ 
+    color:rgb(0, 0, 0);
+}
+
+.troisième_rangée button{
+    background-color: #398175;
+}
+
 /* premier badge */
 .premier_badge{
     display: flex;
