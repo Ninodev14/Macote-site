@@ -341,4 +341,15 @@ footer p {
         width: 100%; /* Pleine largeur pour les boutons dans la version mobile */
         margin-right: 0;
     }
+    .separation {
+        width: 0;
+    }
 }
+
+@media screen and (max-width : 1000px){
+    .separation {
+        width: 0;
+    }
+
+}
+
