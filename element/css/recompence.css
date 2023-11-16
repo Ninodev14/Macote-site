@@ -53,12 +53,7 @@
 
 /* hover */
 .planche12:hover{
-    border: 2px solid var(--Vert-fonc, #3A8075);
-    background: var(--Vert-fonc, #ffffff);
-    color: #3A8075;
-}
-
-.planche12 a:hover{
+    background-color: #4BC3B7;
     color: #3A8075;
 }
 
@@ -77,9 +72,6 @@
     color: rgb(255, 255, 255);
 }
 
-.première_rangée button a:hover{
-    color: rgb(0, 0, 0);
-}
 
 /* deuxieme rangée */
 .deuxième_rangée{
@@ -98,9 +90,7 @@
     color: white;
 }
 
-.deuxième_rangée button a:hover{
-    color: rgb(0, 0, 0);
-}
+
 
 /* troisieme rangée */
 .troisième_rangée{
@@ -118,9 +108,7 @@
     color: white;
 }
 
-.troisième_rangée button a:hover{ 
-    color:rgb(0, 0, 0);
-}
+
 
 .troisième_rangée button{
     background-color: #398175;
@@ -145,9 +133,7 @@
     color: white;
 }
 
-.quatrième_rangée button a:hover{ 
-    color:rgb(0, 0, 0);
-}
+
 
 .quatrième_rangée button{
     background-color: #398175;
@@ -180,12 +166,12 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    transition: 0.3s;
 }
 
 .premier_badge button:hover{
-    border: 2px solid var(--Vert-fonc, #3A8075);
-    background: var(--Vert-fonc, #ffffff);
-    color: #000000;
+    background-color: #4BC3B7;
+    color: #3A8075;
 }
 
 /* deuxieme badge */
@@ -211,12 +197,12 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    transition: 0.3s;
 }
 
 .deuxième_badge button:hover{
-    border: 2px solid var(--Vert-fonc, #3A8075);
-    background: var(--Vert-fonc, #ffffff);
-    color: #000000;
+    background-color: #4BC3B7;
+    color: #3A8075;
 }
 
 
@@ -243,6 +229,7 @@
     justify-content: center;
     text-align: center;
     border-radius: 20px;
+    transition: 0.3s;
 }
 
 .social_animation{
@@ -250,8 +237,7 @@
 }
 
 .troisième_badge button:hover{
-    border: 2px solid var(--Vert-fonc, #3A8075);
-    background: var(--Vert-fonc, #ffffff);
+    background-color: #4BC3B7;
     color: #3A8075;
 }
 
@@ -295,12 +281,12 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    transition: 0.3s;
 }
 
 .quatrième_rangée button:hover{
-    border: 2px solid var(--Vert-fonc, #3A8075);
-    background: var(--Vert-fonc, #ffffff);
-    color: #000000;
+    background-color: #4BC3B7;
+    color: #3A8075;
 }
 
 
@@ -319,11 +305,11 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    transition: 0.3s;
 }
 
 .quatrieme_badge button:hover{
-    border: 2px solid var(--Vert-fonc, #3A8075);
-    background: var(--Vert-fonc, #ffffff);
-    color: #000000;
+    background-color: #4BC3B7;
+    color: #3A8075;
 }
 
