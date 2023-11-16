@@ -126,13 +126,6 @@
   letter-spacing: 3px;
   }
 
-p .objectif{
-  
-  display: flex;
-  justify-content: center;
-  margin-right: auto;
-  width: 50%;
-}
 
 .theme1{
   background: url('../image/cible.png'),  #398175;
@@ -166,13 +159,28 @@ p .objectif{
   justify-content: center;
 }
 
-.objectif{
-margin: 2rem 5rem 2rem 38rem;
-}
-
 .theme .objectif p {
   color: #398175;
+  justify-content: center;
+  display: flex;
 }
+
+.objectif{
+   display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p .objectif{
+  
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150%;
+}
+
 
 .objectif span{
   margin: 10rem 10rem 10rem 1rem;
