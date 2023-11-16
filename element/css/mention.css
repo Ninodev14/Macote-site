@@ -58,3 +58,19 @@
     transform: translateY(-7px);
     color: #000000;
 }
+
+@media screen and (max-width : 430px) {
+    .nav-item img{
+        width: auto;
+        height: 5px;
+    }
+    .nav-item2 img{
+        width: auto;
+        height: 5px;
+    }
+    .navbar {
+        width: 100%;
+        display: flex;
+    }
+    
+}
