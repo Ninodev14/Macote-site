@@ -85,12 +85,14 @@ let semainedate = ""
 let semainechiffre = ""
 let resumer = ""
 let objectif =""
+let link2 =""
 
 function writing() {
     document.getElementById('p3').innerHTML = text;
     document.getElementById('p4').innerHTML = semaine;
     document.querySelector('.badge').src = badge;
     document.querySelector('#link').href = link;
+    document.querySelector('#link2').href = link2;
     document.querySelector('.jour').innerHTML = jour;
     document.querySelector('#themechoix').innerHTML = theme;
     document.querySelector('.semaine').innerHTML = semainedate; 
@@ -241,6 +243,28 @@ tabWeek = [
     "Cette semaine d’apprentissage du recyclage va leur permettre de développer une conscience environnementale, de contribuer à la protection de l'environnement, de réduire les émissions de gaz à effet de serre, d'économiser des ressources naturelles et de favoriser une consommation responsable. Cela les forme en tant que futurs acteurs du changement et les aide à prendre des décisions éclairées pour préserver notre planète."
 ]
 
+tabLink2 = [
+    "element/image/planchesde12/12Badges_Jardinage.pdf"
+    ,
+    "element/image/planchesde12/12Badges_Jardinage.pdf"
+    ,
+    "element/image/planchesde12/12Badges_Recyclage.pdf"
+    ,
+    "element/image/planchesde12/12Badges_Alimentation.pdf"
+    ,
+    "element/image/planchesde12/12Badges_ConsommationEnergétique.pdf"
+    ,
+    "element/image/planchesde12/12Badges_Animaux.pdf"
+    ,
+    "element/image/planchesde12/12Badges-Environnment.pdf"
+    ,
+    "element/image/planchesde12/12Badges_Occasion.pdf"
+    ,
+    "element/image/planchesde12/12Badges_Animaux.pdf"
+    ,
+    "element/image/planchesde12/12Badges_Recyclage.pdf"
+    ]
+
 tabBadge = [
 "element/image/badge_Jardinage.png"
 ,
@@ -321,6 +345,7 @@ tabDate = [
             semainechiffre = tabSemainechiffre[i]
             resumer = tabResumer[i]
             objectif = tabObjectif[i]
+            link2 = tabLink2[i]
             writing()
         }
         if (datetoday > tabDate[i][1]) {

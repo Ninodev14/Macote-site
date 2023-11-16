@@ -209,7 +209,32 @@ p .objectif{
     width: 80%;
 }
 
+.plus{
+  margin-top: 200px; 
+}
 
+.plus h3{
+  font-family: Nunito;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.plus p{
+  width: 872px;
+  height: 300px; 
+  margin-top: 40px;
+  font-family: Inter;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 .badge{
   margin-top: 4vh;
   margin-right: 2vw;
