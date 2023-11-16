@@ -18,6 +18,7 @@
     display: flex;
     flex-direction: column;
     background-color: #F8DD6C;
+    color: white;
     text-decoration: none;
     width: 219px;
     height: 40px; 
@@ -32,6 +33,7 @@
 
 .planche12 a{
     text-decoration: none;
+    color: white;
 }
 .première_rangée{
     margin-top: 40px;
@@ -71,7 +73,6 @@
     display: flex;
     flex-direction: column;
     background-color: #F8DD6C;
-    background-color: #F8DD6C;
     text-decoration: none;
     width: 219px;
     height: 40px; 
@@ -86,6 +87,7 @@
 
 .première_rangée button a{
     text-decoration: none;
+    color: white;
 }
 .deuxième_badge{
     display: flex;
@@ -112,6 +114,7 @@
 
 .deuxième_rangée button a{
     text-decoration: none;
+    color: white;
 }
 .troisième_badge{
     display: flex;
@@ -139,6 +142,7 @@
 
 .troisième_rangée button a{
     text-decoration: none;
+    color: white;
 }
 .badge{
 margin: auto;
