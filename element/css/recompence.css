@@ -212,3 +212,8 @@
     background: var(--Vert-fonc, #ffffff);
     color: #3A8075;
 }
+
+.social_animation:hover{
+    transform: translateY(-7px);
+    color: #000000;
+}
