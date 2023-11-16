@@ -161,12 +161,10 @@
 
 .theme .objectif p {
   color: #398175;
-  justify-content: center;
-  display: flex;
 }
 
 .objectif{
-   display: flex;
+  display: flex;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
