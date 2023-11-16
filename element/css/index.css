@@ -309,6 +309,7 @@ text-decoration-line: underline;
   border-radius: 10px;
   border: 2px solid var(--Vert-fonc, #3A8075);
   background: var(--Vert-fonc, #3A8075);
+  color: #FFF;
 }
 
 .badges_droite .a2{
