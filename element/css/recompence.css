@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300&family=Roboto:wght@300;400&display=swap');
 
-
+/* texte badges de recompenses */
 .intro {
     font-family: Inter;
     display: flex;
@@ -15,6 +15,15 @@
     font-family: Inter;
 }
 
+/* badge */
+
+.badge{
+    margin: auto;
+    width: 70%;
+    height: auto;
+}
+
+/* planche de 12 */
 .planche12 {
     justify-content: flex-end;
     margin-top: 31px;
@@ -35,17 +44,23 @@
     transition: background-color 0.3s, color 0.3s; 
 }
 
-.planche12:hover {
-    background-color: white; 
-    color: black; 
-}
 .planche12 a{
     text-decoration: none;
-} 
+    color: white;
+}
+
+/* hover */
+.planche12:hover{
+    border: 2px solid var(--Vert-fonc, #3A8075);
+    background: var(--Vert-fonc, #ffffff);
+    color: #3A8075;
+}
 
 .planche12 a:hover{
-    color: rgb(0, 0, 0);
+    color: #3A8075;
 }
+
+/* premiere rangée */
 .première_rangée{
     margin-top: 40px;
     display: flex;
@@ -55,6 +70,13 @@
     margin-right: 150px;
 }
 
+.première_rangée button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* deuxieme rangée */
 .deuxième_rangée{
     margin-top: 40px;
     display: flex;
@@ -64,6 +86,13 @@
     margin-right: 150px;
 }
 
+
+.deuxième_rangée button a{
+    text-decoration: none;
+    color: white;
+}
+
+/* troisieme rangée */
 .troisième_rangée{
     margin-top: 40px;
     display: flex;
@@ -73,6 +102,14 @@
     margin-right: 150px;
 }
 
+
+.troisième_rangée button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* premier badge */
 .premier_badge{
     display: flex;
     flex-direction: column;
@@ -83,7 +120,7 @@
     margin-top: 31px;
     display: flex;
     flex-direction: column;
-    background-color: #398175;
+    background-color: #598139;
     text-decoration: none;
     width: 219px;
     height: 40px; 
@@ -96,11 +133,8 @@
     text-align: center;
 }
 
+/* deuxieme badge */
 
-.première_rangée button a{
-    text-decoration: none;
-    color: white;
-}
 .deuxième_badge{
     display: flex;
     flex-direction: column;
@@ -111,7 +145,7 @@
     margin-top: 31px;
     display: flex;
     flex-direction: column;
-    background-color: #398175;
+    background-color: #413981;
     text-decoration: none;
     width: 219px;
     height: 40px; 
@@ -124,15 +158,8 @@
     text-align: center;
 }
 
-.deuxième_badge button:hover{
-    color: #398175;
-    background-color: white;
-}
 
-.deuxième_rangée button a{
-    text-decoration: none;
-    color: white;
-}
+/* troiseme badge */
 .troisième_badge{
     display: flex;
     flex-direction: column;
@@ -143,8 +170,8 @@
     margin-top: 31px;
     display: flex;
     flex-direction: column;
-    background-color: #398175;
-    text-decoration: none;
+    background-color: rgb(129, 57, 122);
+    color: wi;
     width: 219px;
     height: 40px; 
     border-radius: 15px;
@@ -158,13 +185,3 @@
 }
 
 
-
-.troisième_rangée button a{
-    text-decoration: none;
-    color: white;
-}
-.badge{
-margin: auto;
-width: 70%;
-height: auto;
-}
