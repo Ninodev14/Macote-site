@@ -429,6 +429,11 @@ text-decoration-line: underline;
   color: #000000;
 }
 
+@media screen and (max-width: 2000px) {
+  .défis{
+    margin-top: 35rem;
+  }
+}
 
 @media screen and (max-width: 1200px) {
   .défis{
