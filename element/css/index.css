@@ -476,3 +476,45 @@ text-decoration-line: underline;
     margin-top: 35rem;
   }
 }
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  .défis_jour3{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .défis_jour3{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .défis_jour3{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .défis_jour3{
+   display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .défis_jour3{
+   display: none;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .défis_jour3{
+   display: none;
+  }
+}
