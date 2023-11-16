@@ -105,10 +105,9 @@
 
 .theme h3 span{
   
-  margin: 1rem 1rem 1rem 40rem;
+  margin: 0rem 1rem 1rem 40rem;
   flex-shrink: 0;
   color: #398175;
-  text-align: center;
   font-family: Nunito;
   font-size: 28px;
   font-style: normal;
@@ -126,6 +125,14 @@
   margin-top: 5.5rem;
   letter-spacing: 3px;
   }
+
+p .objectif{
+  
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  width: 50%;
+}
 
 .theme1{
   background: url('../image/cible.png'),  #398175;
