@@ -15,15 +15,6 @@
 }
 
 
-.themechoix{
-   font-family: Nunito; 
-   font-size: 25px;
-   font-weight: 400;
-  display: flex;
-  justify-content: center;
-  margin-right: auto;
-  width: 50%;
-}
 
 .semaines {
     margin-top: 117px;
@@ -60,8 +51,8 @@
 }
 
 .défis{
-  margin-top: 650px;
-  margin-bottom: -25px;
+  margin-top: 450px;
+  margin-bottom: -100px;
 }
 
 .défis_jour1 {
@@ -102,10 +93,25 @@
 
 
 /* themes */
+.theme{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.themechoix{
+   font-family: Nunito; 
+   font-size: 25px;
+   font-weight: 400;
+  display: flex;
+  justify-content: center;
+
+
+}
 
 .theme h3 span{
-  
-  margin: 0rem 1rem 1rem 40rem;
+  margin-top: -2px;
+margin-right: 10px;
   flex-shrink: 0;
   color: #398175;
   font-family: Nunito;
@@ -176,12 +182,12 @@ p .objectif{
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  width: 150%;
+
 }
 
 
 .objectif span{
-  margin: 10rem 10rem 10rem 1rem;
+
   background-color: #398175;
   color: #FFF;
   padding: 1rem;
