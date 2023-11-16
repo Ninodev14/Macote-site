@@ -267,12 +267,13 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-    width: 400px;
+    width: 450px;
     margin-right: auto;
     margin-left: auto;
 }
 
 .quatrième_rangée{
+    margin-top: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -324,3 +325,4 @@
     background: var(--Vert-fonc, #ffffff);
     color: #000000;
 }
+
