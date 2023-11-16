@@ -32,7 +32,7 @@
 .explications p{
     font-family: Inter; 
     width: 70%;
-    height: 300px; 
+    height: 100px; 
     margin-top: 58px;
     display: flex;
     justify-content: center;
@@ -40,6 +40,13 @@
     margin-right: auto;
 
 }
+
+@media screen and (max-width: 600px) {
+  .espacevideo{
+    margin: 300px;
+  }
+}
+
 
 .explications iframe{
     margin-top: 2%;
