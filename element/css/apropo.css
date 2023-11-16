@@ -129,3 +129,12 @@ body{
     font-weight: 400;
     line-height: 165%;
 }
+
+.social_animation{
+    transition: 0.5s;
+}
+
+.social_animation:hover{
+    transform: translateY(-7px);
+    color: #000000;
+}
