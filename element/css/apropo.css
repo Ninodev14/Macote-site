@@ -18,7 +18,7 @@ header .navi{
     flex-direction: column;
     margin-right: auto;
     margin-left: auto;
-  }
+}
 
 
   header .navi{
@@ -53,9 +53,6 @@ header .navi ul{
 header .navi a{
     text-decoration: none;
     color: inherit;
-
-
-   
 }
 
 
@@ -85,14 +82,12 @@ body{
 }
 
 .noms{
-   
     text-align: center;
 }
 
 .qui_sommes{
     text-align: center;
     color: #3A8075; 
-    
     font-family: Irish Grover;
     font-size: 72px;
     font-style: normal;
@@ -111,6 +106,15 @@ body{
 }
 
 .contenu p{
-    margin-top: 49px;
-font-family: Montserrat;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165%;
 }
