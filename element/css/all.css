@@ -177,6 +177,7 @@ footer p {
     width: 100%;
     text-align: center;
     z-index: 10;
+    margin-left: auto;
 }
 
 .nav-btn {
@@ -210,6 +211,7 @@ footer p {
     margin-right: 5px;
     font-size: 20px;
     color: white;
+    width : auto
 }
 
 .header h2 {
@@ -254,6 +256,7 @@ footer p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right:5px;
 }
 .nav-item img{
     margin-top: 5%;
@@ -321,4 +324,32 @@ footer p {
     .separation {
         width: 0;
     }
+    .navbar{
+        max-width: 430px;
+    }
 }
+
+@media screen and (max-width : 768px) {
+    .nav-item,
+    .nav-item2 {
+        flex-direction: column; /* Revenir à la direction en colonne pour la version mobile */
+    }
+
+    .nav-btn {
+        margin-left: 0; /* Aucun espacement entre les boutons dans la version mobile */
+        margin-top: 5px; /* Espacement entre les boutons dans la version mobile */
+        width: 100%; /* Pleine largeur pour les boutons dans la version mobile */
+        margin-right: 0;
+    }
+    .separation {
+        width: 0;
+    }
+}
+
+@media screen and (max-width : 1000px){
+    .separation {
+        width: 0;
+    }
+
+}
+
