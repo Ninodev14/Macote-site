@@ -36,11 +36,7 @@
 
 .planche12 a{
     text-decoration: none;
-<<<<<<< Updated upstream
     color: white;
-=======
-    color : white;
->>>>>>> Stashed changes
 }
 .première_rangée{
     margin-top: 40px;
@@ -80,7 +76,6 @@
     display: flex;
     flex-direction: column;
     background-color: #F8DD6C;
-    background-color: #F8DD6C;
     text-decoration: none;
     width: 219px;
     height: 40px; 
@@ -95,11 +90,7 @@
 
 .première_rangée button a{
     text-decoration: none;
-<<<<<<< Updated upstream
     color: white;
-=======
-    color : white;
->>>>>>> Stashed changes
 }
 .deuxième_badge{
     display: flex;
@@ -126,11 +117,7 @@
 
 .deuxième_rangée button a{
     text-decoration: none;
-<<<<<<< Updated upstream
     color: white;
-=======
-    color : white;
->>>>>>> Stashed changes
 }
 .troisième_badge{
     display: flex;
@@ -158,11 +145,7 @@
 
 .troisième_rangée button a{
     text-decoration: none;
-<<<<<<< Updated upstream
     color: white;
-=======
-    color : white;
->>>>>>> Stashed changes
 }
 .badge{
 margin: auto;
