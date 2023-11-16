@@ -205,12 +205,12 @@
     color: #3A8075;
 }
 
-@media screen and (width > 600px) {
+@media screen and (width > 765px) {
     .yes-mobile{
         display: none;
     }
   }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 765px) {
     .no-mobile{
         display: none;
     }
