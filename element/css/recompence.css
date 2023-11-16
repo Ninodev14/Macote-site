@@ -256,3 +256,68 @@
     transform: translateY(-7px);
     color: #000000;
 }
+
+
+/* quatrieme */
+
+.quatrieme_badge{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.quatrième_rangée{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.quatrième_rangée button{
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+    background-color: #3A8075;
+    text-decoration: none;
+    width: 219px;
+    height: 40px; 
+    border-radius: 15px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.quatrième_rangée button:hover{
+    border: 2px solid var(--Vert-fonc, #3A8075);
+    background: var(--Vert-fonc, #ffffff);
+    color: #000000;
+}
+
+
+.quatrieme_badge button{
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+    background-color: #3A8075;
+    text-decoration: none;
+    width: 219px;
+    height: 40px; 
+    border-radius: 15px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.quatrieme_badge button:hover{
+    border: 2px solid var(--Vert-fonc, #3A8075);
+    background: var(--Vert-fonc, #ffffff);
+    color: #000000;
+}
