@@ -72,9 +72,12 @@
 
 .première_rangée button a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
+.première_rangée button a:hover{
+    color: rgb(0, 0, 0);
+}
 
 /* deuxieme rangée */
 .deuxième_rangée{
@@ -90,6 +93,10 @@
 .deuxième_rangée button a{
     text-decoration: none;
     color: white;
+}
+
+.deuxième_rangée button a:hover{
+    color: rgb(0, 0, 0);
 }
 
 /* troisieme rangée */
@@ -116,6 +123,11 @@
     background-color: #398175;
 }
 
+.troisième_rangée button{
+    background-color: #398175;
+}
+
+/* quatrieme rangee */
 .quatrième_rangée{
     margin-top: 40px;
     display: flex;
@@ -124,7 +136,6 @@
     margin-left: 150px;
     margin-right: 150px;
 }
-
 
 .quatrième_rangée button a{
     text-decoration: none;
@@ -135,9 +146,14 @@
     color:rgb(0, 0, 0);
 }
 
-.troisième_rangée button{
+.quatrième_rangée button{
     background-color: #398175;
 }
+
+.quatrième_rangée button{
+    background-color: #398175;
+}
+
 
 /* premier badge */
 .premier_badge{
@@ -164,43 +180,6 @@
 }
 
 .premier_badge button:hover{
-    border: 2px solid var(--Vert-fonc, #3A8075);
-    background: var(--Vert-fonc, #ffffff);
-    color: #000000;
-}
-
-
-/* premier badge */
-.premier_badgespe{
-    width: 350px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
-    
-}
-
-.premier_badgespe button{
-    margin-top: 31px;
-    display: flex;
-    flex-direction: column;
-    background-color: #3A8075;
-    text-decoration: none;
-    width: 219px;
-    height: 40px; 
-    border-radius: 15px;
-    border: none;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.premier_badgespe button:hover{
     border: 2px solid var(--Vert-fonc, #3A8075);
     background: var(--Vert-fonc, #ffffff);
     color: #000000;
