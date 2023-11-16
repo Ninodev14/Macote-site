@@ -90,7 +90,7 @@ function writing() {
     document.getElementById('p3').innerHTML = text;
     document.getElementById('p4').innerHTML = semaine;
     document.querySelector('.badge').src = badge;
-    document.querySelector('.link').href = link;
+    document.querySelector('#link').href = link;
     document.querySelector('.jour').innerHTML = jour;
     document.querySelector('#themechoix').innerHTML = theme;
     document.querySelector('.semaine').innerHTML = semainedate; 
