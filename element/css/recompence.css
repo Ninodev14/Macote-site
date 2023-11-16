@@ -184,4 +184,11 @@
     border-radius: 20px;
 }
 
+.social_animation{
+    transition: 0.5s;
+}
 
+.social_animation:hover{
+    transform: translateY(-7px);
+    color: #000000;
+}
