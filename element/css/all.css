@@ -24,6 +24,14 @@ h1 {
     font-weight: 400;
     line-height: normal;
 }
+
+@media screen and (max-width : 430px){
+    h1 {
+        font-size: 50px;
+    }
+}
+
+
 h2{
     color: #398175;
     text-align: center;
@@ -34,6 +42,13 @@ h2{
     line-height: normal;
   }  
 
+  @media screen and (max-width : 430px){
+    h2 {
+        font-size: 25px;
+    }
+}
+
+
 p {
     color: #000;
     font-family: Inter;
@@ -42,6 +57,14 @@ p {
     font-weight: 400;
     line-height: normal;
     
+}
+
+
+
+@media screen and (max-width : 430px){
+    p {
+        font-size: 15px;
+    }
 }
 
 footer a{
