@@ -116,7 +116,7 @@
   
   .theme2 p{
   color: #FFF;
-  font-family: Montserrat;
+  font-family: Inter;
   font-size: 30px;
   font-style: normal;
   font-weight: 100;
@@ -193,7 +193,7 @@ p .objectif{
     width: 872px;
     height: 300px; 
     margin-top: 58px;
-    font-family: Montserrat;
+    font-family: Inter;
     display: flex;
     justify-content: center;
     margin-left: auto;
