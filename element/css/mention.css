@@ -23,13 +23,14 @@
     align-items: center;
 }
 .nav-item img{
-
     margin-top: 5%;
-    width: 10%;
+    width: auto;
+    height: 40px;
 }
 .nav-item2 img{
-    margin-top: 3%;
-    width: 10%;
+    margin-top: 5%;
+    width: auto;
+    height: 40px;
 }
 .nav-btn {
     padding: 14px 16px;
