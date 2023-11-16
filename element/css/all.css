@@ -259,3 +259,22 @@ footer p {
 .mention h2{
     text-align: start;
 }
+
+@media screen and (max-width : 430px) {
+    .header h2 {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        border-width: 10px;
+        -webkit-text-stroke: 1px white;
+        line-height: normal;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+    .header img {
+        margin-left: 3%;
+        margin-right: 3%;
+        width: 20%;
+    }
+}
