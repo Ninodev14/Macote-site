@@ -37,10 +37,9 @@
 
 .explications p{
     font-family: Inter; 
-    width: 80%;
-    height: 136px; 
+    width: 872px;
+    height: 300px; 
     margin-top: 58px;
-    margin-bottom: 2%;
     display: flex;
     justify-content: center;
   
@@ -232,3 +231,4 @@ margin: 2rem 5rem 2rem 38rem;
     margin-left:0px ;
     width: 80%;
 }
+
