@@ -329,6 +329,11 @@ footer p {
     }
 }
 
+@media screen and (max-width : 600px) {
+    .badge{
+        display: none;
+    }
+}
 @media screen and (max-width : 768px) {
     .nav-item,
     .nav-item2 {
@@ -343,6 +348,9 @@ footer p {
     }
     .separation {
         width: 0;
+    }
+    .badge{
+        display: none;
     }
 }
 
