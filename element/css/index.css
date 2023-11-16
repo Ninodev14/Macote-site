@@ -209,6 +209,17 @@ p .objectif{
     width: 80%;
 }
 
+.télé a {
+  text-decoration: none;
+  color: #000;
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}
+
 .plus{
   margin-top: 200px; 
 }
@@ -274,7 +285,7 @@ p .objectif{
     display: flex;
     justify-content: left;
     margin-left:0px ;
-    width: 80%;
+    font-size: 20px;
     margin-top: 31px;
     display: flex;
     flex-direction: column;
@@ -282,7 +293,7 @@ p .objectif{
     border: 2px solid var(--Vert-fonc, #3A8075);
     background: var(--Blanc, #FFF); 
     text-decoration: none;
-    width: 219px;
+    width: 270px;
     height: 40px; 
     border-radius: 15px;
     
@@ -299,12 +310,12 @@ p .objectif{
 }
 
 .badges_droite .a2{
+  font-size: 20px;
   margin-right: 20px;
   margin-top: 20px;
   display: flex;
   justify-content: left;
   margin-left:0px ;
-  width: 80%;
   margin-top: 31px;
   display: flex;
   flex-direction: column;
@@ -312,7 +323,7 @@ p .objectif{
   border-radius: 10px;
   border: 2px solid var(--Vert-clair, #99E4AA);
   text-decoration: none;
-  width: 219px;
+  width: 340px;
   height: 40px; 
   border-radius: 15px;
   
