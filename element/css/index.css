@@ -100,16 +100,6 @@
 }
 
 
-
-
-
-
-@media screen and (max-width: 768px) {
-  .défis img {
-    margin-left: 0; /* Ajuster la marge pour les écrans plus petits */
-  }
-}
-
 /* themes */
 
 .theme h3 span{
@@ -126,7 +116,7 @@
   
   .theme2 p{
   color: #FFF;
-  font-family: Comfortaa;
+  font-family: Montserrat;
   font-size: 30px;
   font-style: normal;
   font-weight: 100;
@@ -189,7 +179,7 @@ margin: 2rem 5rem 2rem 38rem;
     width: 872px;
     height: 300px; 
     margin-top: 58px;
-    font-family: Inter; 
+    font-family: Montserrat;
     display: flex;
     justify-content: center;
     margin-left: auto;
