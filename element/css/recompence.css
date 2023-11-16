@@ -41,7 +41,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    transition: background-color 0.3s, color 0.3s; 
+    transition: 0.3s; 
 }
 
 .planche12 a{
@@ -108,6 +108,13 @@
     color: white;
 }
 
+.troisième_rangée button a:hover{ 
+    color:rgb(0, 0, 0);
+}
+
+.troisième_rangée button{
+    background-color: #398175;
+}
 
 /* premier badge */
 .premier_badge{
@@ -120,7 +127,7 @@
     margin-top: 31px;
     display: flex;
     flex-direction: column;
-    background-color: #598139;
+    background-color: #3A8075;
     text-decoration: none;
     width: 219px;
     height: 40px; 
@@ -131,6 +138,12 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.premier_badge button:hover{
+    border: 2px solid var(--Vert-fonc, #3A8075);
+    background: var(--Vert-fonc, #ffffff);
+    color: #000000;
 }
 
 /* deuxieme badge */
@@ -145,7 +158,7 @@
     margin-top: 31px;
     display: flex;
     flex-direction: column;
-    background-color: #413981;
+    background-color: #3A8075;
     text-decoration: none;
     width: 219px;
     height: 40px; 
@@ -156,6 +169,12 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.deuxième_badge button:hover{
+    border: 2px solid var(--Vert-fonc, #3A8075);
+    background: var(--Vert-fonc, #ffffff);
+    color: #000000;
 }
 
 
@@ -170,8 +189,8 @@
     margin-top: 31px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(129, 57, 122);
-    color: wi;
+    background-color: #3A8075;
+    color: rgb(0, 0, 0);
     width: 219px;
     height: 40px; 
     border-radius: 15px;
@@ -188,7 +207,8 @@
     transition: 0.5s;
 }
 
-.social_animation:hover{
-    transform: translateY(-7px);
-    color: #000000;
+.troisième_badge button:hover{
+    border: 2px solid var(--Vert-fonc, #3A8075);
+    background: var(--Vert-fonc, #ffffff);
+    color: #3A8075;
 }
