@@ -195,10 +195,12 @@ p .objectif{
 }
 /* pourquoi */
 
+.pourquoi{
+  padding-top: 50px;
+}
+
 .pourquoi p{
-    width: 872px;
-    height: 300px; 
-    margin-top: 58px;
+    width: 70%;
     font-family: Inter;
     display: flex;
     justify-content: center;
@@ -207,6 +209,7 @@ p .objectif{
 }
 
 .badges{
+  padding-top: 100px;
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -226,9 +229,6 @@ p .objectif{
 text-decoration-line: underline;
 }
 
-.plus{
-  margin-top: 200px; 
-}
 
 .plus h3{
   font-family: Nunito;
@@ -240,12 +240,13 @@ text-decoration-line: underline;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 50px;
 }
 
 .plus p{
   width: 70%;
-  height: 300px; 
-  margin-top: 4%;
+  padding-top: 10px; 
+
   font-family: Inter;
   display: flex;
   justify-content: center;
@@ -253,17 +254,17 @@ text-decoration-line: underline;
   margin-right: auto;
 }
 .badge{
-  margin-top: 4vh;
-  margin-right: 2vw;
+  padding-bottom: 200px;
   height: 250px;
   width: auto;
 }
 
 .badges_droite{
+
     display: flex;
     flex-direction: column;
     justify-content: left;
-    margin-left:0px ;
+
 
     
 }
@@ -363,6 +364,7 @@ text-decoration-line: underline;
 }
 
 .resumer p{
+
   display: flex;
   justify-content: center;
   margin-right: auto;
