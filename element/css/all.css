@@ -198,6 +198,7 @@ footer p {
     font-size: 72px;
     font-style: normal;
     font-weight: 400;
+    -webkit-text-stroke: 1px white;
     line-height: normal;
     justify-content: center;
     margin-left: auto;
