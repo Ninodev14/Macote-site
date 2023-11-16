@@ -297,6 +297,12 @@ p .objectif{
 
 }
 
+.badges_droite .a2:hover{
+  border-radius: 10px;
+  border: 2px solid var(--Vert-clair, #99E4AA);
+  background: var(--Vert-clair, #99E4AA);
+}
+
 
 .télé {
   display: flex;
