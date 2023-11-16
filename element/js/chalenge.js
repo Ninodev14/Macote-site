@@ -104,67 +104,67 @@ function writing() {
 tabObjectif = [
     "Objectif de la semaine : <span>Créer un potager</span>"
     ,
-    "Objectif de la semaine : <span>...</span>"
+    "Objectif de la semaine : <span>Garder en vie sa plante pendant une semaine</span>"
     ,
-    "Objectif de la semaine : <span>...</span>"
+    "Objectif de la semaine : <span>Ramasser et trier ses déchets</span>"
     ,
-    "Objectif de la semaine : <span>...</span>"
+    "Objectif de la semaine : <span>Manger sain et bio</span>"
     ,
-    "Objectif de la semaine : <span>...</span>"
+    "Objectif de la semaine : <span>Faire attention à sa consommation énergétique</span>"
     ,
-    "Objectif de la semaine : <span>...</span>"
+    "Objectif de la semaine : <span>Protéger les animaux</span>"
     ,
-    "Objectif de la semaine : <span>...</span>"
+    "Objectif de la semaine : <span>Limiter sa consommation plastique</span>"
     ,
-    "Objectif de la semaine : <span>...</span>"
+    "Objectif de la semaine : <span>Faire du troc, et de l'occasion</span>"
     ,
-    "Objectif de la semaine : <span>...</span>"
+    "Objectif de la semaine : <span>Découvrir des animaux en voie de disparition</span>"
     ,
-    "Objectif de la semaine : <span>...</span>"
+    "Objectif de la semaine : <span>Apprendre à recycler</span>"
 ]
 
 tabResumer = [
     "Lundi, nous allons réfléchir à la composition du potager, Mardi acheter les graines, Mercredi préparer le sol, Et jeudi/vendredi planter et arroser tout ça !"
     ,
-    "..."
+    "Lundi, nous allons planter une graine dans un petit pot puis tout le reste de la semaine, le défi sera d’arroser sa plante et d’en prendre soin"
     ,
-    "..."
+    "Lundi, nous allons créer un compost, mardi, ramasser les déchets autour de l’école et les trier, mercredi, ramasser des déchets dans la ville, la forêt ou le parc, jeudi, créer un “Recup’Papier” et vendredi, nous allons découvrir ce qu’est le recyclage."
     ,
-    "..."
+    "Lundi, nous allons manger une pomme et planter sa graine, mardi, il faudra finir toute son assiettes aux repas, mercredi, on ne va pas manger de viande de la journée, jeudi, faire sa propre purée / compote, et vendredi nous allons acheter des oeufs dans une ferme locale"
     ,
-    "..."
+    "Lundi, le défi sera de toujours éteindre la lumière derrière soi, mardi il faudra venir à l'école à vélo, à pied ou avec les transports en commun, mercredi le défi sera de prendre une douche de 5 min max, jeudi de gagner à un quizz sur les énergies renouvelables, et vendredi vous essayerez de passer une soirée sans utiliser d’électricité"
     ,
-    "..."
+    "Lundi, les enfants vont devoir découvrir un nouvel animal, mardi, bricoler une mangeoir, mercredi mettre une gamelle d'eau à l'extérieur de sa maison pour les animaux vivant dehors, jeudi, créer un hôtel à insecte et vendredi ils vont devoir se renseigner sur l’alimentation de nos animaux"
     ,
-    "..."
+    "Lundi, le défi sera de fabriquer un cadeau à un proche, sans plastique, mardi de venir avec une gourde à l’école, mercredi, de recycler ses pailles en plastique et ensuite ne plus en acheter, jeudi, bricoler quelque chose avec des déchets, et vendredi ils devront demander à leurs parents d’acheter plus en vrac"
     ,
-    "..."
+    "Lundi, les enfants vont trier les vêtements et jouets qu’ils n’utilisent plus, mardi, donner ses vetements dans un Relais, mercredi, acheter un vêtement d’occasion, jeudi, découvre le troc et troquer un jouet avec un copain/copine et vendredi, il vont recycler un vêtement troué"
     ,
-    "..."
+    "Tout au long de la semaine, les enfants vont découvre tout un panel d’animaux en voie de disparition en les dessinant"
     ,
-    "..."
+    "Lundi, les enfants vont mettre des seaux à l’exterieur pour recycler l’eau de pluie, Mardi, apprendre à cuisiner les épluchures, Mercredi, ils devront faire une guirlande avec des bouchons plastiques, Jeudi, ils vont participer à un concours de tri des déchets et Vendredi, il faudra faire du papier mâcher avec des journaux"
 ]
 
 tabSemainechiffre = [
-    "Lundi 13 février 2024 - Vendredi 17 février 2024"
+    "Lundi 13 février 2024 au Vendredi 17 février 2024"
     ,
-    "Lundi 20 novembre 2023 - Vendredi 24 novembre 2023"
+    "Lundi 20 novembre 2023 au Vendredi 24 novembre 2023"
     ,
-    "Lundi 27 novembre 2023 - Vendredi 01 décembre 2023"
+    "Lundi 27 novembre 2023 au Vendredi 01 décembre 2023"
     ,
-    "Lundi 04 décembre 2023 - Vendredi 08 décembre 2023"
+    "Lundi 04 décembre 2023 au Vendredi 08 décembre 2023"
     ,
-    "Lundi 11 décembre 2023 - Vendredi 15 décembre 2023" 
+    "Lundi 11 décembre 2023 au Vendredi 15 décembre 2023" 
     ,
-    "Lundi 18 décembre 2023 - Vendredi 22 décembre 2023"
+    "Lundi 18 décembre 2023 au Vendredi 22 décembre 2023"
     ,
-    "Lundi 08 janvier 2024 - Vendredi 12 janvier 2024"
+    "Lundi 08 janvier 2024 au Vendredi 12 janvier 2024"
     ,
-    "Lundi 15 janvier 2024 - Vendredi 19 janvier 2024"
+    "Lundi 15 janvier 2024 au Vendredi 19 janvier 2024"
     ,
-    "Lundi 22 janvier 2024 - Vendredi 26 janvier 2024"
+    "Lundi 22 janvier 2024 au Vendredi 26 janvier 2024"
     ,
-    "Lundi 29 janvier 2024 - Vendredi 02 février 2024"
+    "Lundi 29 janvier 2024 au Vendredi 02 février 2024"
 ]
 
 tabSemainedate = [
@@ -242,25 +242,25 @@ tabWeek = [
 ]
 
 tabBadge = [
-"element/image/b_eau.png"
-,
-"element/image/b_plante.png"
-,
-"element/image/badge_ConsommationEnergetique.png"
-,
-"element/image/Badge_Recyclage.png"
+"element/image/badge_Jardinage.png"
 ,
 "element/image/badge_Jardinage.png"
 ,
+"element/image/Badge_Recyclage.png"
+,
 "element/image/Badge_Alimentation.png"
+,
+"element/image/badge_ConsommationEnergetique.png"
 ,
 "element/image/Badge_Animaux.png"
 ,
-"element/image/..."
+"element/image/b_plante.png"
 ,
-"element/image/..."
+"element/image/element/image/badge-occasion.png"
 ,
-"element/image/..."
+"element/image/Badge_Animaux.png"
+,
+"element/image/element/image/badge_Reciclage.png"
 ]
 
 tabTextWeek = [
