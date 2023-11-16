@@ -15,7 +15,7 @@
     font-family: Inter;
 }
 
-.planche12{
+.planche12 {
     justify-content: flex-end;
     margin-top: 31px;
     display: flex;
@@ -32,11 +32,19 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    transition: background-color 0.3s, color 0.3s; 
 }
 
+.planche12:hover {
+    background-color: white; 
+    color: black; 
+}
 .planche12 a{
     text-decoration: none;
-    color: white;
+} 
+
+.planche12 a:hover{
+    color: rgb(0, 0, 0);
 }
 .première_rangée{
     margin-top: 40px;
@@ -114,6 +122,11 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.deuxième_badge button:hover{
+    color: #398175;
+    background-color: white;
 }
 
 .deuxième_rangée button a{
