@@ -107,7 +107,7 @@ footer {
 .menulink {
     color: #000;
     font-family: Inter;
-    font-size: 37px;
+    font-size: 15px;
     font-style: italic;
     font-weight: 800;
     line-height: normal;
@@ -119,6 +119,11 @@ footer {
 
 .menulink:hover {
     color: #000000;
+}
+
+.menulink:hover {
+    
+    color: #3A8075;
 }
 
 footer img{
@@ -146,6 +151,7 @@ footer p {
     top: 0;
     width: 100%;
     text-align: center;
+    z-index: 10;
 }
 
 .nav-btn {
