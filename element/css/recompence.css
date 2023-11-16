@@ -20,7 +20,7 @@
     margin-top: 31px;
     display: flex;
     flex-direction: column;
-    background-color: #F8DD6C;
+    background-color: #398175;
     color: white;
     text-decoration: none;
     width: 219px;
@@ -75,7 +75,7 @@
     margin-top: 31px;
     display: flex;
     flex-direction: column;
-    background-color: #F8DD6C;
+    background-color: #398175;
     text-decoration: none;
     width: 219px;
     height: 40px; 
@@ -87,6 +87,7 @@
     justify-content: center;
     text-align: center;
 }
+
 
 .première_rangée button a{
     text-decoration: none;
@@ -102,7 +103,7 @@
     margin-top: 31px;
     display: flex;
     flex-direction: column;
-    background-color: #F8DD6C;
+    background-color: #398175;
     text-decoration: none;
     width: 219px;
     height: 40px; 
@@ -129,7 +130,7 @@
     margin-top: 31px;
     display: flex;
     flex-direction: column;
-    background-color: #F8DD6C;
+    background-color: #398175;
     text-decoration: none;
     width: 219px;
     height: 40px; 
@@ -142,6 +143,8 @@
     text-align: center;
     border-radius: 20px;
 }
+
+
 
 .troisième_rangée button a{
     text-decoration: none;
