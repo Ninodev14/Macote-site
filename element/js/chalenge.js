@@ -146,6 +146,8 @@ tabResumer = [
 ]
 
 tabSemainechiffre = [
+    "Lundi 13 février 2024 - Vendredi 17 février 2024"
+    ,
     "Lundi 20 novembre 2023 - Vendredi 24 novembre 2023"
     ,
     "Lundi 27 novembre 2023 - Vendredi 01 décembre 2023"
@@ -163,8 +165,6 @@ tabSemainechiffre = [
     "Lundi 22 janvier 2024 - Vendredi 26 janvier 2024"
     ,
     "Lundi 29 janvier 2024 - Vendredi 02 février 2024"
-    ,
-    "Lundi 05 février 2024 - Vendredi 09 février 2024"
 ]
 
 tabSemainedate = [
@@ -246,15 +246,15 @@ tabBadge = [
 ,
 "element/image/b_plante.png"
 ,
-"element/image/..."
+"element/image/badge_ConsommationEnergetique.png"
 ,
-"element/image/..."
+"element/image/Badge_Recyclage.png"
 ,
-"element/image/..."
+"element/image/badge_Jardinage.png"
 ,
-"element/image/..."
+"element/image/Badge_Alimentation.png"
 ,
-"element/image/..."
+"element/image/Badge_Animaux.png"
 ,
 "element/image/..."
 ,

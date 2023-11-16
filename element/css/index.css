@@ -58,6 +58,11 @@
 
 }
 
+.défis{
+  margin-top: 650px;
+  margin-bottom: -25px;
+}
+
 .défis_jour1 {
   margin-top: 259px;
   color: var(--Vert-fonc, #3A8075);
@@ -182,7 +187,7 @@ margin: 2rem 5rem 2rem 38rem;
 
 .pourquoi p{
     width: 872px;
-    height: 322px; 
+    height: 300px; 
     margin-top: 58px;
     font-family: Inter; 
     display: flex;
@@ -197,9 +202,11 @@ margin: 2rem 5rem 2rem 38rem;
     justify-content: center;
 }
 
-.badges img{
-    height: 339px;
-    width: 339px;
+.badge{
+  margin-top: 4vh;
+  margin-right: 2vw;
+  height: 250px;
+  width: auto;
 }
 
 .badges_droite{
