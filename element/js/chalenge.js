@@ -124,25 +124,25 @@ tabObjectif = [
 ]
 
 tabResumer = [
-    "Lundi, nous allons réfléchir à la composition du potager, Mardi acheter les graines, Mercredi préparer le sol, Et jeudi/vendredi planter et arroser tout ça !"
+    "Lundi: Nous allons réfléchir à la composition du potager <br><br> Mardi: Acheter les graines <br><br> Mercredi: Préparer le sol, <br><br> Jeudi/Vendredi: Planter et arroser tout ça !"
     ,
-    "Lundi, nous allons planter une graine dans un petit pot puis tout le reste de la semaine, le défi sera d’arroser sa plante et d’en prendre soin"
+    "Lundi: nous allons planter une graine dans un petit pot <br><br> Tout le reste de la semaine: le défi sera d’arroser sa plante et d’en prendre soin"
     ,
-    "Lundi, nous allons créer un compost, mardi, ramasser les déchets autour de l’école et les trier, mercredi, ramasser des déchets dans la ville, la forêt ou le parc, jeudi, créer un “Recup’Papier” et vendredi, nous allons découvrir ce qu’est le recyclage."
+    "Lundi: Nous allons créer un compost <br><br> Mardi: Ramasser les déchets autour de l’école et les trier <br><br> Mercredi: Ramasser des déchets dans la ville, la forêt ou le parc <br><br> Jeudi: Créer un “Recup’Papier” <br><br> Vendredi: Nous allons découvrir ce qu’est le recyclage."
     ,
-    "Lundi, nous allons manger une pomme et planter sa graine, mardi, il faudra finir toute son assiettes aux repas, mercredi, on ne va pas manger de viande de la journée, jeudi, faire sa propre purée / compote, et vendredi nous allons acheter des oeufs dans une ferme locale"
+    "Lundi: nous allons manger une pomme et planter sa graine <br><br> Mardi: Il faudra finir toute son assiettes aux repas <br><br> Mercredi: On ne va pas manger de viande de la journée <br><br> Jeudi: Faire sa propre purée / compote <br><br> Vendredi: Nous allons acheter des oeufs dans une ferme locale"
     ,
-    "Lundi, le défi sera de toujours éteindre la lumière derrière soi, mardi il faudra venir à l'école à vélo, à pied ou avec les transports en commun, mercredi le défi sera de prendre une douche de 5 min max, jeudi de gagner à un quizz sur les énergies renouvelables, et vendredi vous essayerez de passer une soirée sans utiliser d’électricité"
+    "Lundi: le défi sera de toujours éteindre la lumière derrière soi <br><br> Mardi: il faudra venir à l'école à vélo, à pied ou avec les transports en commun <br><br> Mercredi: le défi sera de prendre une douche de 5 min max <br><br> Jeudi: De gagner à un quizz sur les énergies renouvelables <br><br> Vendredi: Vous essayerez de passer une soirée sans utiliser d’électricité"
     ,
-    "Lundi, les enfants vont devoir découvrir un nouvel animal, mardi, bricoler une mangeoir, mercredi mettre une gamelle d'eau à l'extérieur de sa maison pour les animaux vivant dehors, jeudi, créer un hôtel à insecte et vendredi ils vont devoir se renseigner sur l’alimentation de nos animaux"
+    "Lundi: les enfants vont devoir découvrir un nouvel animal <br><br> Mardi: Bricoler une mangeoir <br><br> Mercredi: Mettre une gamelle d'eau à l'extérieur de sa maison pour les animaux vivant dehors <br><br> Jeudi: Créer un hôtel à insecte <br><br> Vendredi: Ils vont devoir se renseigner sur l’alimentation de nos animaux"
     ,
-    "Lundi, le défi sera de fabriquer un cadeau à un proche, sans plastique, mardi de venir avec une gourde à l’école, mercredi, de recycler ses pailles en plastique et ensuite ne plus en acheter, jeudi, bricoler quelque chose avec des déchets, et vendredi ils devront demander à leurs parents d’acheter plus en vrac"
+    "Lundi: le défi sera de fabriquer un cadeau à un proche, sans plastique <br><br> Mardi: de venir avec une gourde à l’école <br><br> Mercredi: De recycler ses pailles en plastique et ensuite ne plus en acheter <br><br> Jeudi: Bricoler quelque chose avec des déchets <br><br> Vendredi: Ils devront demander à leurs parents d’acheter plus en vrac"
     ,
-    "Lundi, les enfants vont trier les vêtements et jouets qu’ils n’utilisent plus, mardi, donner ses vetements dans un Relais, mercredi, acheter un vêtement d’occasion, jeudi, découvre le troc et troquer un jouet avec un copain/copine et vendredi, il vont recycler un vêtement troué"
+    "Lundi: les enfants vont trier les vêtements et jouets qu’ils n’utilisent plus <br><br> Mardi: Donner ses vetements dans un Relais <br><br> Mercredi: Acheter un vêtement d’occasion <br><br> Jeudi: découvre le troc et troquer un jouet avec un copain/copine <br><br> Vendredi: Il vont recycler un vêtement troué"
     ,
-    "Tout au long de la semaine, les enfants vont découvre tout un panel d’animaux en voie de disparition en les dessinant"
+    "Tout au long de la semaine: les enfants vont découvre tout un panel d’animaux en voie de disparition en les dessinant"
     ,
-    "Lundi, les enfants vont mettre des seaux à l’exterieur pour recycler l’eau de pluie, Mardi, apprendre à cuisiner les épluchures, Mercredi, ils devront faire une guirlande avec des bouchons plastiques, Jeudi, ils vont participer à un concours de tri des déchets et Vendredi, il faudra faire du papier mâcher avec des journaux"
+    "Lundi: les enfants vont mettre des seaux à l’exterieur pour recycler l’eau de pluie <br><br> Mardi: Apprendre à cuisiner les épluchures <br><br> Mercredi: Ils devront faire une guirlande avec des bouchons plastiques <br><br> Jeudi: Ils vont participer à un concours de tri des déchets <br><br> Vendredi: Il faudra faire du papier mâcher avec des journaux"
 ]
 
 tabSemainechiffre = [
